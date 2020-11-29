@@ -16,13 +16,13 @@ var container= document.querySelector('.container')
 container.addEventListener('click',e=>{
   if(e.target.className==="far fa-times-circle"){
     e.target.closest('p').remove()
-  }
-  if(e.target.id==='button-left'){
-console.log(e.target.closest('ul'));
-    // if (e.target.children.style.display === "block") {
-    //     e.target.children.style.display = "none";
-    //   } else {
-    //     e.target.children.style.display = "block";
-    //   }
-}
+  } 
+  if(e.target.className==='adjective'){
+
+    if (e.target.parentNode.children[2].style.display === "block") {
+        e.target.parentNode.children[2].style.display = "none";
+      } else {
+        e.target.parentNode.children[2].style.display = "block";
+      }
+    }
     })
