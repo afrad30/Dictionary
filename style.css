@@ -94,4 +94,14 @@ li{
    background-color: rgb(87, 102, 240);
 }
 
-
+.middle h4,.button-learnt{
+    display:none;
+}
+.button-learnt{
+    background-color: maroon;
+    color: whitesmoke;
+    height: 25px;
+    padding: 2px 5px 2px 5px ;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
